@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/stagingprojectpr/public_html/projects/testgithub/wp-content/themes/twentytwentythree
+    - /bin/cp * $DEPLOYPATH
